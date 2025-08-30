@@ -52,8 +52,11 @@ divide(20,0)
 ## 📜 Sample Output (console & app1.log)
 
 2025-08-30 17:20:45 - ArithmethicApp - DEBUG - Adding 10 + 15 = 25
+
 2025-08-30 17:20:45 - ArithmethicApp - DEBUG - Subtracting 15 - 10 = 5
+
 2025-08-30 17:20:45 - ArithmethicApp - DEBUG - Multiplying 10 * 20 = 200
+
 2025-08-30 17:20:45 - ArithmethicApp - ERROR - Division by zero error
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------
