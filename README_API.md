@@ -1,5 +1,6 @@
 
-````markdown
+
+markdown
 # Flask To-Do API
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
@@ -18,7 +19,7 @@ Demonstrates CRUD operations (**Create, Read, Update, Delete**) using JSON.
 - Ready to test with **Postman**  
 - Returns proper HTTP responses and error messages  
 
----
+
 
 ## 🛠 Requirements
 
@@ -26,7 +27,7 @@ Demonstrates CRUD operations (**Create, Read, Update, Delete**) using JSON.
 - Flask (`pip install flask`)  
 - Optional: [Postman](https://www.postman.com/) for testing
 
----
+
 
 ## ⚡ How to Run
 
@@ -44,7 +45,7 @@ python app.py
 
 * API runs at: `http://127.0.0.1:5000/`
 
----
+
 
 ## 📌 API Endpoints
 
@@ -56,7 +57,7 @@ python app.py
 | PUT    | /items/<id> | Update an existing item  |
 | DELETE | /items/<id> | Delete an item           |
 
----
+
 
 ## 📝 Postman Flow
 
@@ -68,16 +69,11 @@ python app.py
 | 4    | PUT    | /items/3 | `{"name":"Updated Item 3","description":"Updated"}` | Update an existing item         |
 | 5    | DELETE | /items/3 | -                                                   | Delete an item                  |
 
----
-
----
 
 ## ⚠ Notes
 
 * Data is **in-memory**, resets on server restart.
 * `.gitignore` prevents tracking of `venv/`, `__pycache__/`, logs, and editor files.
 * Can be extended to use a **database** for persistence.
-
-```
 
 
